@@ -6,6 +6,23 @@ A base filtered by `status == "todo"` and `project == "[[Apollo]]"` then gives n
 
 One template for each base, the filter values, the folder and the name pattern are free. Pro adds more templates with a list to pick from, a template for each view, Templater, and Duplicate as new note. Pro costs $5 a month, or $15 once, through GitHub Sponsors. A total payment of $15 meets the payment requirement for Pro without further payment. Sign-in and the checks below still apply.
 
+## Quick start
+
+1. Make a note `Templates/Task.md`. Paste this text into it:
+
+```markdown
+---
+status: todo
+---
+## Steps
+
+## Notes
+```
+
+2. Open a base file. Run the command "Set up templates for this base".
+3. Type `Templates/Task.md` in the Template field, then select Save.
+4. Press New in the base. The new note has `status: todo` and the two headings.
+
 ## Features
 
 <img src="https://raw.githubusercontent.com/theluckystrike/bases-note-templates/HEAD/docs/bases-note-templates.gif" alt="Pressing New in a base: the new note gets the template and a name from the pattern" width="720">
@@ -104,7 +121,7 @@ The plugin sets no default hotkeys. You can give any command a hotkey in Setting
 
 Pro unlocks more templates for each base with a list, view templates, Templater, and Duplicate as new note. To get it:
 
-1. Sponsor [theluckystrike on GitHub Sponsors](https://github.com/sponsors/theluckystrike?metadata_source=bases-note-templates) with $5 a month, or $15 once. A total payment of $15 meets the payment requirement for Pro without further payment. Sign-in and the checks below still apply.
+1. Sponsor [theluckystrike on GitHub Sponsors](https://github.com/sponsors/theluckystrike?frequency=one-time&metadata_source=bases-note-templates) with $5 a month, or $15 once. A total payment of $15 meets the payment requirement for Pro without further payment. Sign-in and the checks below still apply.
 2. In Obsidian, open the settings of Bases Note Templates and select "Sign in with GitHub".
 3. The plugin copies a code and opens github.com/login/device. Paste the code there and approve.
 
@@ -155,7 +172,7 @@ Filters that compare with a formula or with `this` are skipped when the command 
 
 The core features are free. Pro features need a GitHub Sponsors sponsorship of theluckystrike: $5 a month or more, or $15 once. A total payment of $15 meets the payment requirement for Pro without further payment. Sign-in and the checks below still apply. Your notes stay readable and editable with or without Pro.
 
-GitHub handles the payment. Sponsor at https://github.com/sponsors/theluckystrike. You need no account for the free features. Pro needs the GitHub account that sponsors.
+GitHub handles the payment. Sponsor at https://github.com/sponsors/theluckystrike?frequency=one-time&metadata_source=bases-note-templates. You need no account for the free features. Pro needs the GitHub account that sponsors.
 
 Until you select "Sign in with GitHub" in the settings, Bases Note Templates makes no network requests. Sign in uses the GitHub device flow. Bases Note Templates sends its public client ID and the scope `read:user` to `https://github.com/login/device/code` and shows you a code. While you enter the code at https://github.com/login/device, it asks `https://github.com/login/oauth/access_token` every few seconds to check the sign-in status. The scope permits profile reads only. GitHub needs this access to show the sponsorship tier. It grants no repository scope and no write access.
 
