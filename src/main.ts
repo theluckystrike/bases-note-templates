@@ -123,7 +123,7 @@ export default class BasesNoteTemplatesPlugin extends Plugin {
 			this.registerEvent(this.app.vault.on('modify', (file) => this.onModify(file)));
 			this.registerEvent(this.app.workspace.on('layout-change', () => this.refreshButtons()));
 			this.registerEvent(this.app.workspace.on('active-leaf-change', () => this.refreshButtons()));
-			this.listenForEmbedNew(document);
+			this.listenForEmbedNew(this.app.workspace.containerEl.doc);
 			this.registerEvent(this.app.workspace.on('window-open', (_win, w) => this.listenForEmbedNew(w.document)));
 			this.refreshButtons();
 			void pro.refresh();
