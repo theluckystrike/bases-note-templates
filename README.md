@@ -1,5 +1,7 @@
 # Bases Note Templates
 
+[![Pro: $15 once or $5 a month on GitHub Sponsors](https://img.shields.io/badge/Pro-%2415%20once%20or%20%245%2Fmonth-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/theluckystrike) Pro costs [$15 one time](https://github.com/sponsors/theluckystrike/sponsorships?tier_id=666162&metadata_source=bases-note-templates-readme) or [$5 a month](https://github.com/sponsors/theluckystrike/sponsorships?tier_id=666161&metadata_source=bases-note-templates-readme) on GitHub Sponsors. One sponsorship turns on Pro in every NoteMods Obsidian plugin that has Pro.
+
 Bases Note Templates makes the New button of a base start new notes from a template. You pick a template note for the base. When you press New, the new note gets the properties and the text of that template, plus the values of the base filters, in the right folder, with a file name from a pattern.
 
 A base filtered by `status == "todo"` and `project == "[[Apollo]]"` then gives notes like `2026-10-10 Apollo.md`, with `status: todo`, `project: "[[Apollo]]"` and the headings of your task template already in place. You no longer make a note, delete it, and insert a template by hand.
